@@ -1,3 +1,11 @@
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) { /* iPhone6+ landscape */
+
+.navbar {
+    display: none;
+}
+
 @font-face {
     font-family: "Cabin Sketch";
     src: url('../fonts/cabinsketch-regular-webfont.ttf') format('truetype'), url('../fonts/cabinsketch-regular-webfont.woff') format('woff'), url('../fonts/cabinsketch-regular-webfont.woff2') format('woff2');
@@ -24,7 +32,7 @@
     }
   
   body {
-      background-color: var(--background-color);
+      background-color: #FF2B27;
       background-size: cover;
       color: var(--titlesandtext);
       width: 100%;
@@ -223,11 +231,11 @@
       font-size: 9rem;
       margin-top: 6rem;
     }
-  
+/*   
   .Intro {
     background-image: url("../Images/intro.webp");
     background-size: cover;
-  }
+  } */
   
   /* couldn't figure out how to layer image properly in time. 
   .Intro #Arrow {
@@ -240,6 +248,7 @@
   } */
   
   .Hello {
+    background-color: #36454F;
     margin: 0rem 5rem 15rem 4rem;
     text-align: center;
   }  
@@ -450,3 +459,4 @@
     width: 100%;
     margin: auto;
   }
+}
