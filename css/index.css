@@ -1,42 +1,6 @@
   #currentPage {
     color: red;
   }
-
-  .logo {
-    margin: 0;
-    position: absolute;
-    top: 4rem;
-    right: 3.5rem;
-  }
-  
-  .logo a {
-    text-decoration: none;
-    color:#36454F;
-  }
-  
-  .logo h3 {
-    font-size:4.5rem;
-  }
-  
-  .nav-container input[type="checkbox"]:checked ~ .menu-items {
-    transform: translateX(0);
-  }
-  
-  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
-    transform: rotate(45deg);
-  }
-  
-  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
-    transform: scaleY(0);
-  }
-  
-  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
-    transform: rotate(-45deg);
-  }
-  
-  .nav-container input[type="checkbox"]:checked ~ .logo{
-    display: none;
-  }
   
   /*index introduction/homepage*/
   
