@@ -3,54 +3,57 @@
   }
   
   /*index introduction/homepage*/
+  .container {
+    scroll-snap-type: y proximity; /* you can do horizontal scroll with x mandatory */
+    overflow-y: scroll;
+    height: 100vh;
+    scroll-behavior: smooth;
+  }
+  
+  section {
+    scroll-snap-align: start;
+    height: 100vh;
+  }
   
   .Doyeon {
-    padding: 10rem 0rem 30em 6rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
   }
   
     .Doyeon h4 {
       font-size: 2em;
-      margin-left: 3rem;
+      margin-top: 10rem;
     }
   
     .Doyeon h1 {
-      font-size: 5rem;
-      margin-top: 6rem;
+      font-size: 4rem;
+      margin-top: 10rem;
     }
-/*   
-  .Intro {
-    background-image: url("../Images/intro.webp");
-    background-size: cover;
-  } */
-  
-  /* couldn't figure out how to layer image properly in time. 
-  .Intro #Arrow {
-    display: block;
-    position: relative;
-    width: 13rem;
-    left: 45rem;
-    bottom: 50rem;
-    z-index: 1;
-  } */
-  
+
   .Hello {
     background-color: #36454F;
     color: #e6e6e6;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }  
   
-  .Hello h4 {
-    font-size: 2rem;
-  } 
-  
-  .Hello h2{
-    font-size: 2rem;
+  .Hello h2 {
+    font-size: 18px;
   }  
   
   /*portfolio work content*/
   
   .Work {
-    margin: 0 4em 0 4em;
+    background-color: #F4E2B4;
+  }
+
+  .Work h1 {
+    margin: 0;
   }
   
   .Work Img {

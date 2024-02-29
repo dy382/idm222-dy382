@@ -5,11 +5,10 @@
   }
   
   @font-face {
-    font-family: "Quantico";
-    src: url('../fonts/quantico-regular-webfont.ttf') format('truetype'), url('../fonts/quantico-regular-webfont.woff') format('woff'), url('../fonts/quantico-regular-webfont.woff2') format('woff2'),
-         url('../fonts/quantico-bold-webfont.ttf') format('truetype'), url('../fonts/quantico-bold-webfont.woff') format('woff'), url('../fonts/quantico-bold-webfont.woff2') format('woff2'),
-         url('../fonts/quantico-italic-webfont.ttf') format('truetype'), url('../fonts/quantico-italic-webfont.woff') format('woff'), url('../fonts/quantico-italic-webfont.woff2') format('woff2');
-    font-weight: 700;
+    font-family: "Overpass Mono";
+    src: url('../fonts/overpass-mono/overpass-mono-bold.otf') format('otf'), url('../fonts/overpass-mono/overpass-mono-light.otf') format('otf'), 
+    url('../fonts/overpass-mono/overpass-mono-regular.otf') format('otf'), url('../fonts/overpass-mono/overpass-mono-semibold.otf') format('otf');
+    font-weight: lighter, 300, 600;
   }
   
   html {
@@ -38,14 +37,15 @@
   }
   
   h2 {
-    font-family: 'Quantico', Georgia, sans-serif;
-    font-weight: 700;
+    font-family: 'Overpass Mono', Georgia, sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
   }
   
   h3 {
     font-family: 'Cabin Sketch', Georgia, sans-serif;
     font-weight: 400;
-    font-size: 3rem;
+    font-size: 25px;
     margin: 0;
   }
   
@@ -56,12 +56,13 @@
   }
   
   h4 {
-      font-family: 'Quantico', Georgia, sans-serif;
-      font-weight: 400;
+      font-family: 'Overpass Mono', Georgia, sans-serif;
+      font-weight: 600;
     }
   
   p {
-      font-family: 'Quantico', Georgia, sans-serif;
+      font-family: 'Overpass Mono', Georgia, sans-serif;
+      font-weight: 400;
   
     }
   
@@ -107,20 +108,7 @@
 
   
   /*portfolio work content*/
-  
-  .Work {
-    margin: 0 4em 0 4em;
-  }
-  
-  .Work Img {
-      width: 100%;
-      margin: 1em 0em 0em 0em;
-  }
-  
-  .Work h4 {
-    margin: 0.7rem 0 2rem 0;
-    font-size: 1.5rem;
-  }
+
   
   /*fish means boxed (inside joke name). fish represents the texts that are boxed for design purposes (also represents button)*/
   
