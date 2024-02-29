@@ -5,7 +5,7 @@
   /*index introduction/homepage*/
   
   .Doyeon {
-    padding: 13rem 0rem 67rem 6rem;
+    padding: 10rem 0rem 30em 6rem;
   }
   
     .Doyeon h4 {
@@ -14,7 +14,7 @@
     }
   
     .Doyeon h1 {
-      font-size: 9rem;
+      font-size: 5rem;
       margin-top: 6rem;
     }
 /*   
@@ -35,7 +35,7 @@
   
   .Hello {
     background-color: #36454F;
-    margin: 0rem 5rem 15rem 4rem;
+    color: #e6e6e6;
     text-align: center;
   }  
   

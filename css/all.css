@@ -77,7 +77,7 @@
   /*index introduction/homepage*/
   
   .Doyeon {
-    padding: 13rem 0rem 67rem 6rem;
+
   }
   
     .Doyeon h4 {
@@ -104,19 +104,7 @@
     bottom: 50rem;
     z-index: 1;
   } */
-  
-  .Hello {
-    margin: 0rem 5rem 15rem 4rem;
-    text-align: center;
-  }  
-  
-  .Hello h4 {
-    font-size: 2rem;
-  } 
-  
-  .Hello h2{
-    font-size: 2rem;
-  }  
+
   
   /*portfolio work content*/
   
