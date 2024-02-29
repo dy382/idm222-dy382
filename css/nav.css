@@ -1,21 +1,9 @@
 /*MENU*/
 
-.menu-items {
-    list-style: none;
-    text-decoration: none;
-    float: left;
-    margin-left: 10px;
-}
-
-.menu-items li {
-    display: inline-block;
-    margin: 0 50px;
-}
-
-.menu-items li a {
-    position: fixed;
-    font-size: 18px;
-}
+.navbar {
+    width: 100%;
+    margin-bottom: 10rem;
+  }
 
 .logo {
     margin: 0;
@@ -23,7 +11,7 @@
     top: 4rem;
     right: 50px;
 }
-  
+
 .logo a {
     color:#36454F;
 }
@@ -32,74 +20,49 @@
     font-size: 3rem;
 }
 
-@media (max-width: 768px) {
-    .logo {
-        right: 10px;
-        
-    }
-     
+.menu-items {
+    list-style: none;
+    position: fixed;
+    text-decoration: none;
+    top: 4rem;
+    left: 100px;
 }
 
-/* @media (max-width: 767px) and (min-width: 300px){ Mobile Portrait 
- .navbar {
-   width: 100%;
-   margin-bottom: 10rem;
- }
- 
- .nav-container {
-   justify-content: space-between;
-   align-items: center;
-   display: none;
-   position: relative;
- }
- 
- .navbar .menu-items {
-   padding: 45rem 5rem 0rem 5rem;
-   box-shadow: inset 0 0 0 2000px #e6e6e6;
-   height: 100vh;
-   width: 100%;
-   transform: translate(-150%);
-   display: inline;
-   flex-direction: column;
-   transition: transform 0.5s ease-in-out;
-   text-align: center;
- }
- 
- .navbar .menu-items li {
-   list-style: none;
-   margin-bottom: 3rem;
-   font-size: 1.5rem;
-   font-weight: 500;
- }
- 
- .navbar .menu-items a {
-   text-decoration: none;
-   color: #36454F;
-   font-weight: 500;
-   font-size: 4rem;
-   padding: 0.7rem;
- }
- 
- .navbar .menu-items a:hover{
-     color: #FF2B27;
- }
- 
- .nav-container .checkbox {
-   position: absolute;
-   display: none;
-   height: 4.5rem;
-   width: 4.5rem;
-   top: 4.5rem;
-   left: 4rem;
-   z-index: 5;
-   opacity: 0;
-   cursor: pointer;
- }
- 
+.menu-items li {
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.menu-items li a {
+    font-size: 18px;
+    color: #36454F;
+}
+
+.nav-container {
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+    position: relative;
+  }
+  
+.nav-container .checkbox {
+    position: fixed;
+    display: none;
+    height: 4.5rem;
+    width: 4.5rem;
+    top: 4.5rem;
+    left: 4rem;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+}
+
  .nav-container .hamburger-lines {
    height: 3.6rem;
    width: 4.5rem;
-   position: absolute;
+   position: fixed;
    top: 4.5rem;
    left: 4rem;
    z-index: 2;
@@ -150,7 +113,49 @@
    display: none;
  }
 
- 
+
+@media (max-width: 768px) {
+
+    .navbar .menu-items {
+        padding: 45rem 5rem 0rem 5rem;
+        box-shadow: inset 0 0 0 2000px #e6e6e6;
+        height: 100vh;
+        width: 100%;
+        transform: translate(-150%);
+        display: inline;
+        flex-direction: column;
+        transition: transform 0.5s ease-in-out;
+        text-align: center;
+    }
+
+    .nav-container {
+        display: block;
+      }
+    
+    .nav-container .checkbox {
+        display: block;
+    }
+    .nav-container .hamburger-lines .line {
+        display: block;
+    }
+    .nav-container input[type="checkbox"]:checked ~ .logo {
+        display: block;
+    }    
+}
+
+@media (min-width: 768px) {
+    .logo {
+        right: 0;
+        left: 50px;
+    }
+}
+
+/* @media (max-width: 767px) and (min-width: 300px){ Mobile Portrait 
+
+
+ .navbar .menu-items a:hover{
+     color: #FF2B27;
+ }
   
 @media (max-width: 768px) { /*Tablet 
  .nav-container {
