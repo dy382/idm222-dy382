@@ -31,7 +31,13 @@
     .Doyeon h1 {
       font-size: 4rem;
       margin-top: 10rem;
+      border-bottom: 2px solid #36454F;
     }
+  
+  .Intro {
+    background-image: url("../Images/intro.webp");
+    background-size: cover;
+  }
 
   .Hello {
     background-color: #36454F;
@@ -40,7 +46,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 100px;
+    padding: 0 300px;
   }  
   
   .Hello h2 {
@@ -54,7 +60,8 @@
   }
 
   .Work h1 {
-    margin: 0;
+    display: flex;
+    justify-content: center;
   }
   
   .Work Img {

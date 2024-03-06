@@ -4,31 +4,31 @@
     font-weight: 400 700;
   }
   
-  @font-face {
-    font-family: 'Overpass Mono';
-       src: url('../fonts/overpass-mono-light-webfont.woff') format('woff'),
-            url('../fonts/overpass-mono-light-webfont.woff2') format('woff');
-            font-weight: 300;
-  }
-
- @font-face {
-    font-family: 'Overpass Mono';
-       src: url('../fonts/overpass-mono-regular-webfont.woff') format('woff'),
-            url('../fonts/overpass-mono-regular-webfont.woff2') format('woff2');
-    font-weight: 400;
- }
-
- @font-face {
+@font-face {
   font-family: 'Overpass Mono';
-     src: url('../fonts/overpass-mono-semibold-webfont.woff') format('woff'),
-          url('../fonts/overpass-mono-semibold-webfont.woff2') format('woff2');
-  font-weight: 700;
+    src: url('../fonts/overpass_mono/overpass-mono-light-webfont.woff') format('woff'),
+          url('../fonts/overpass_mono/overpass-mono-light-webfont.woff2') format('woff2');
+  font-weight: 300;
+}
+
+@font-face {
+   font-family: 'Overpass Mono';
+    src: url('../fonts/overpass_mono/overpass-mono-regular-webfont.woff') format('woff'),
+           url('../fonts/overpass_mono/overpass-mono-regular-webfont.woff2') format('woff2');
+  font-weight: 400;
 }
 
 @font-face {
   font-family: 'Overpass Mono';
-     src: url('../fonts/overpass-mono-bold-webfont.woff') format('woff'),
-          url('../fonts/overpass-mono-bold-webfont.woff2') format('woff2');
+    src: url('../fonts/overpass_mono/overpass-mono-semibold-webfont.woff') format('woff'),
+         url('../fonts/overpass_mono/overpass-mono-semibold-webfont.woff2') format('woff2');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Overpass Mono';
+    src: url('../fonts/overpass_mono/overpass-mono-bold-webfont.woff') format('woff'),
+          url('../fonts/overpass_mono/overpass-mono-bold-webfont.woff2') format('woff2');
   font-weight: 700;
 }
 
@@ -60,7 +60,7 @@
   h2 {
     font-family: 'Overpass Mono', Georgia, sans-serif;
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 600;
   }
   
   h3 {
@@ -78,7 +78,7 @@
   
   h4 {
       font-family: 'Overpass Mono', Georgia, sans-serif;
-      font-weight: 600;
+      font-weight: 300;
     }
   
   p {
@@ -95,27 +95,7 @@
     color: red;
   }
   
-  
-  /*index introduction/homepage*/
-  
-  .Doyeon {
 
-  }
-  
-    .Doyeon h4 {
-      font-size: 2em;
-      margin-left: 3rem;
-    }
-  
-    .Doyeon h1 {
-      font-size: 9rem;
-      margin-top: 6rem;
-    }
-  
-  .Intro {
-    background-image: url("../Images/intro.webp");
-    background-size: cover;
-  }
   
   /* couldn't figure out how to layer image properly in time. 
   .Intro #Arrow {

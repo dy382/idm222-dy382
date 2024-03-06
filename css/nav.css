@@ -28,15 +28,15 @@
     list-style: none;
     position: fixed;
     text-decoration: none;
-    top: 3rem;
-    left: 100px;
+    top: 40px;
+    left: 90px;
     border-bottom: 2px solid #36454F;
     border-left: 1px solid #36454F;
 }
 
 .menu-items li {
     display: inline;
-    margin: 0 20px;
+    margin: 0 15px;
     font-size: 1.5rem;
     font-weight: 500;
 }
