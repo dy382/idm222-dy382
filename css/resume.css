@@ -1,0 +1,82 @@
+  
+  /*resume page*/
+  
+  /*fish means boxed (inside joke name). fish represents the texts that are boxed for design purposes (also represents button)*/
+  
+  .Fish {
+    outline: 2px solid #36454F;
+    text-align: center;
+    width: max-content;
+  }
+  
+    .Fish a {
+      text-decoration: none;
+      color: #FF2B27;
+      padding: .1em;
+    }
+  
+    .Fish h3 {
+      padding: .1em;
+    }
+  
+  .underline {
+   font-size: rem;
+  }
+
+  .resumeFish {
+    width: max-content;
+  }
+
+  @media (max-width: 768px) {
+  
+    .Resume {
+    margin: 8em 1em ;
+    }
+    .resumeFish{
+      margin: 2em 1em 1em 1em;
+    }
+    .Resume h1 {
+      border-bottom: 2px solid #36454F;
+      margin: 2rem 0 1.5rem 0;
+    }
+  
+    .Resume h2 {
+      margin: 2rem 0 0 0;
+    }
+  
+    .Resume h3 {
+      margin-top: 2rem;
+    }
+  
+    .Resume h4 {
+      margin: 1rem 0 1rem 0;
+    }
+  
+    .Resume p {
+      margin: 1rem 0 1.5rem 0;
+    }
+  
+    .Resume ul {
+      margin: 1rem 0 5rem 2rem;
+    }
+
+  }
+
+@media (min-width: 768px) {
+  
+  .resumeFish {
+    display: flex;
+    margin: 15rem 4rem 5rem 0;
+  }
+
+
+  .Resume {
+    margin: 0 15rem 5rem 15rem;
+  }
+
+  .Resume h1 {
+    border-bottom: 2px solid #36454F;
+  }
+
+}
+

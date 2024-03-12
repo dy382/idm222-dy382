@@ -24,13 +24,13 @@
   }
   
     .Doyeon h4 {
-      font-size: 2em;
-      margin-top: 10rem;
+      margin-top: 7rem;
     }
   
     .Doyeon h1 {
-      font-size: 4rem;
-      margin-top: 10rem;
+      font-size: 3rem;
+      margin-top: 6rem;
+      padding: 0 10px;
       border-bottom: 2px solid #36454F;
     }
   
@@ -57,11 +57,14 @@
   
   .Work {
     background-color: #F4E2B4;
+    padding: 50px;
   }
 
   .Work h1 {
     display: flex;
     justify-content: center;
+    margin: 0 0;
+    padding: 50px;
   }
   
   .Work Img {
@@ -74,24 +77,6 @@
     font-size: 1.5rem;
   }
   
-  /*fish means boxed (inside joke name). fish represents the texts that are boxed for design purposes (also represents button)*/
-  
-  .Fish {
-    outline: 2px solid #36454F;
-    text-align: center;
-    width: max-content;
-  }
-  
-    .Fish a {
-      text-decoration: none;
-      color: #FF2B27;
-      padding: .1em;
-    }
-  
-    .Fish h3 {
-      padding: .1em;
-    }
-  
   .chessRookie {
     margin-bottom: 7rem;
   }  
@@ -103,83 +88,7 @@
   .woodmereArtMuseum {
     margin-bottom: 5rem;
   }
-  
-  /*About me Page*/
-  
-  .About {
-    margin: 0 4em 0 4em;
-  }
-  
-  .About img {
-    width: 100%;
-  }
-  
-  .About h3 {
-    margin-top: 3rem;
-    font-size: 3.5rem;
-  }
-  
-  .About p {
-    margin-top: 2rem;
-    font-size: 1.5rem;
-  }
-  
-  /*resume page*/
-  
-  .resumetitle {
-    margin: 0 4em 5em 4em;
-  }
-  
-    .resumetitle h3 {
-      text-align: center;
-    }
-  
-    .resumeFish {
-      outline: 2px solid #36454F;
-      width: max-content;
-    }
-  
-    .resumeFish a {
-    text-decoration: none;
-    color: #FF2B27;
-    padding: .1em;
-    font-size: 2em;
-    }
-  
-  .Resume {
-    margin: 5em 4em 5em 4em;
-  }
-  
-    .Resume h1 {
-      font-size: 2.4em;
-      border-bottom: 2px solid #36454F;
-      margin: 5rem 0 1.5rem 0;
-    }
-  
-    .Resume h2 {
-      font-size: 2em;
-      margin: 4rem 0 0 0;
-    }
-  
-    .Resume h3 {
-      font-size: 2em;
-      margin-top: 3rem;
-    }
-  
-    .Resume h4 {
-      font-size: 1.5em;
-      margin: 1rem 0 1rem 0;
-    }
-  
-    .Resume p {
-      font-size: 0.95em;
-      margin: 1rem 0 1.5rem 0;
-    }
-  
-    .Resume ul {
-      margin: 1rem 0 5rem 2rem;
-    }
-  
+
   .space {
     margin-top: 4rem;
   }

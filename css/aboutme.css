@@ -1,0 +1,28 @@
+
+  /*About me Page*/
+@media (max-width: 768px) {
+  .About {
+    margin: em 4em 0 4em;
+  }
+  
+  .About img {
+    width: 100%;
+  }
+  
+  .About h3 {
+
+    font-size: 3.5rem;
+  }
+  
+  .About p {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+  
+}
+
+@media (min-width: 768px) {
+  .About {
+    margin: 8em 4em 0 4em;
+  }
+}
