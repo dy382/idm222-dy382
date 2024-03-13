@@ -2,15 +2,13 @@
 
 .navbar {
     width: 100%;
-    margin-bottom: 10rem;
 }
 
 .nav-container {
     justify-content: space-between;
     align-items: center;
-    display: block;
     position: relative;
-    height: 60px;
+
   }
   
 .nav-container .checkbox {
@@ -176,19 +174,15 @@
         text-decoration: none;
     }
     
-  .menu-items:after {
-    display:block;
-    content: '';
+  .menu-items a:hover {
     color: #FF2B27;
     font-weight: 700;  
-    transition: transform 250ms ease-in-out;
-    transform-origin: 100% 50%; 
+    transition: ease-in-out all .2s; 
+    opacity: 70%;
+
     }
-  
-  .menu-items:hover:after{ 
-    color: #FF2B27;
-  }
-    }
+
+}
     
 
 
