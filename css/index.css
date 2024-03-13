@@ -8,11 +8,14 @@
     overflow-y: scroll;
     height: 100vh;
     scroll-behavior: smooth;
+    width: 100%;
+    margin: auto;
   }
   
   section {
     scroll-snap-align: start;
     height: 100vh;
+    width: 100vw;
   }
   
   .Doyeon {
@@ -46,7 +49,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 300px;
   }  
   
   .Hello h2 {
@@ -57,13 +59,6 @@
   
   .Work {
     background-color: #F4E2B4;
-    padding: 50px;
-  }
-
-  .Work h1 {
-    display: flex;
-    justify-content: center;
-    margin: 0 0;
     padding: 50px;
   }
   
@@ -93,34 +88,6 @@
     margin-top: 4rem;
   }
   
-  .phototitle {
-    margin: 0 4em 0em 4em;
-    padding-bottom: 10rem;
-    background-image: url("../Images/photobackground.png");
-    background-size: cover;
-  }
-  
-  .phototitle h1 {
-    margin-bottom: 0;
-  }
-  .phototitle p {
-    margin: 2rem 0 0rem 1rem;
-    font-size: 2rem;
-  }
-  
-  .Photo {
-    margin: 3em 5em 5em 5em;
-  }
-  
-  .Photo Img {
-    margin-bottom: 3em;
-    width: 100%;
-  }
-  
-  #photo ul {
-    text-decoration: none;
-  }
-  
   .case {
     margin: 0rem 4rem 5rem 4rem;
   }
@@ -147,21 +114,20 @@
   .ident {
     margin: 0 0 0 4rem;
   }
-  
-  footer {
-    display: flex;
-    justify-content: center;
-    margin: 9rem 0rem 5rem 0rem;
+
+
+  @media (max-width: 768px) { 
+    .Doyeon h4 {
+      margin-top: 0rem;
   }
-  
-  footer img {
-    width: 7rem;
-    height: auto;
-    margin: 0 2em;
+    
+    .Hello {
+      padding: 0 50px;
+    }
   }
-  
-  
-  .container {
-    width: 100%;
-    margin: auto;
+
+  @media (min-width: 768px) { 
+    .Hello {
+      padding: 0 300px;
+    }
   }

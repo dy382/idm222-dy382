@@ -25,4 +25,9 @@
   .About {
     margin: 8em 4em 0 4em;
   }
+
+  .About img {
+    height: 30rem;
+    padding: 0 50px;
+  }
 }

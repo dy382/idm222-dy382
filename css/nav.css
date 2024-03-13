@@ -173,16 +173,33 @@
         color: #36454F;
         text-decoration: none;
     }
-    
+
+  @keyframes menu-items {
+    from { text-decoration-color: transparent; }
+    to { text-decoration-color: auto; }
+  }
+
   .menu-items a:hover {
-    color: #FF2B27;
-    font-weight: 700;  
-    transition: ease-in-out all .2s; 
-    opacity: 70%;
-
+    text-decoration: line-through;
+    text-decoration-color: #ff2b27;
+    text-decoration-thickness: 2px;
+    animation: menu-items 250ms ease-in-out;
+    animation-direction: forward;
+    /* animation-fill-mode: forwards;  */
     }
-
 }
     
 
+/* FOOTER */
 
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 9rem 0rem 5rem 0rem;
+  }
+  
+  footer img {
+    width: 7rem;
+    height: auto;
+    margin: 0 2em;
+  }
