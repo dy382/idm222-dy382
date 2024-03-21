@@ -194,12 +194,33 @@
 
 footer {
     display: flex;
+    height: 100vh;
+  }
+
+  @keyframes footer {
+    from { text-decoration-color: transparent; }
+    to { text-decoration-color: auto; }
+  }
+
+  .footer a:hover {
+    text-decoration: line-through;
+    text-decoration-color: #ff2b27;
+    text-decoration-thickness: 2px;
+    animation: footer 250ms ease-in-out;
+    animation-direction: forward;
+    /* animation-fill-mode: forwards;  */
+    }
+
+  @media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
     justify-content: center;
-    margin: 9rem 0rem 5rem 0rem;
   }
-  
-  footer img {
-    width: 7rem;
-    height: auto;
-    margin: 0 2em;
+
+  @media (min-width: 768px) {
+  .footer a {
+    padding: 10px;
+    justify-content: right;
   }
+  }
+}
