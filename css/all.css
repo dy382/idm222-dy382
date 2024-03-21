@@ -59,7 +59,7 @@ h1 {
 
     h2 { 
       font-family: 'Overpass Mono', Georgia, sans-serif;
-      font-size: 25px; /* BOLD */
+      font-size: 20px; /* BOLD */
       font-weight: 700;
     }
 
@@ -73,7 +73,7 @@ h3 {
     h4 { 
       font-family: 'Overpass Mono', Georgia, sans-serif;
       font-weight: 300; /* SKINNY */
-      font-size: 20px;
+      font-size: 18px;
     }
         
     a {
@@ -87,7 +87,7 @@ h3 {
     p {
         font-family: 'Overpass Mono', Georgia, sans-serif;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 15px;
       }
   
   header {
@@ -113,10 +113,6 @@ h3 {
   
   .woodmereArtMuseum {
     margin-bottom: 5rem;
-  }
-  
-  .space {
-    margin-top: 4rem;
   }
   
   .case {
@@ -146,20 +142,25 @@ h3 {
     margin: 0 0 0 4rem;
   }
 
-  
   .title {
     display: flex;
     justify-content: center;
     margin: 0 0;
-    padding: 50px;
+    padding-top: 70px;
   }
 
 /* red link hover underline effect */
 
 .underline { 
-  color: #FF2B27; 
+  color: white; 
   display:inline-block; 
-  margin:0;
+  margin: 0;
+  background: #36454F;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 20px;
 }
   
 .underline:after {
@@ -171,5 +172,6 @@ h3 {
   transform-origin: 100% 50%; }
 
 .underline:hover:after{ transform: scaleX(1); transform-origin:   0% 50%; }
+
 
 
