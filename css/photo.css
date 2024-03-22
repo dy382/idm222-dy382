@@ -2,7 +2,7 @@
   /*Photo Page*/
 
   .phototitle {
-    margin: 50px;
+    padding: 4rem 8rem 3rem 8rem;
   }
   
   .phototitle h1 {
@@ -10,9 +10,12 @@
   }
 
   @media (max-width: 600px) {
+    .phototitle {
+      padding: 50px 3rem 0 3rem;
+    }
 
     .Photo {
-      margin: 3em 3em 5em 3em;
+      padding: 3em 3em 3em 3em;
     }
 
     .Photo Img {
@@ -24,7 +27,7 @@
   @media (min-width: 600px) and (max-width: 900px) {
 
     .Photo {
-      margin: 3em 7em 5em 7em;
+      padding: 3em 7em 3em 7em;
     }
 
     .Photo Img {
@@ -34,10 +37,6 @@
   }
 
   @media (min-width: 900px) and (max-width: 1200px) {
-    
-    .phototitle {
-      padding: 0 8rem 4rem 8rem;
-    }
     
     .phototitle h1 {
       margin-bottom: 0;
@@ -49,6 +48,7 @@
 
     .Photo {
       display: grid;
+      margin-bottom: 3em;
       grid-template-columns: auto auto auto;
       gap: 2em 2em;
       justify-content: center;
@@ -82,12 +82,16 @@
       grid-area: 6 / 1 / 7 / 2;
     }
 
+    .photography5 {
+      grid-area: 4 / 2 / 5 / 3;
+    }
+
     .photography8 {
-      grid-area: 5 / 2 / 7 / 3;
+      grid-area: 6 / 3 / 7 / 4;
     }
 
     .photography12 {
-      grid-area: 6 / 3 / 7 / 4;
+      grid-area: 5 / 2 / 7 / 3;
     }
 
   }
@@ -95,10 +99,6 @@
   
   @media (min-width: 1200px) {
 
-    .phototitle {
-      margin: 8rem 15rem 0 15rem;
-      padding-bottom: 4rem;
-    }
     
     .phototitle h1 {
       margin-bottom: 0;
@@ -110,6 +110,7 @@
 
     .Photo {
       display: grid;
+      margin-bottom: 3em;
       grid-template-columns: auto auto auto;
       gap: 40px 40px;
       justify-content: center;
@@ -144,15 +145,15 @@
     }
 
     .photography5 {
-      grid-area: 4 / 2 /  / 3;
+      grid-area: 4 / 2 / 5 / 3;
     }
 
     .photography8 {
-      grid-area: 5 / 2 / 7 / 3;
+      grid-area: 6 / 3 / 7 / 4;
     }
 
     .photography12 {
-      grid-area: 6 / 3 / 7 / 4;
+      grid-area: 5 / 2 / 7 / 3;
     }
 
   }

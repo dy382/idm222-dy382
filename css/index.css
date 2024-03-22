@@ -14,101 +14,50 @@
   
   section {
     /* scroll-snap-align: start; */
-    height: 100vh;
+    height: 90vh;
   }
   
   .Doyeon {
+    padding: 13rem 0 10rem 20rem;
     text-align: center;
-    display: flex;
-    flex-direction: column; 
+    display: grid;
     align-items: center;
     justify-content: center;
   }
   
     .Doyeon h4 {
-      margin-top: 7rem;
+      margin-top: 10rem;
+      grid-column: 1;
+      grid-row: 3;
     }
   
     .Doyeon h1 {
       font-size: 3rem;
-      margin-top: 6rem;
+      margin-top: 3rem;
       padding: 0 10px;
       border-bottom: 2px solid #36454F;
+      grid-column: 1;
+      grid-row: 4;
     }
-  
-  .Intro {
-    background-image: url("../Images/intro.webp");
-    background-size: cover;
-  }
+    
+    .Doyeon img { 
+      grid-column: 3 / span 4;
+      grid-row: 1 / span 15;
+    }
+
 
   .Hello {
     color: #36454F;
     text-align: center;
     display: flex;
     align-items: center;
-    justify-content: center;
-  }  
+
+  }
   
   .Hello h2 {
     font-size: 18px;
   }  
-  
-  /*portfolio work content*/
-  
-  .Work {
-    background-color: #F4E2B4;
-    padding: 50px;
-  }
-  
-  .Work Img {
-      width: 100%;
-      margin: 1em 0em 0em 0em;
-  }
-  
-  .Work h4 {
-    margin: 0.7rem 0 2rem 0;
-    font-size: 1.5rem;
-  }
-  
-  .chessRookie {
-    margin-bottom: 7rem;
-  }  
-  
-  .chessRookie h3 {
-    font-size: 4rem;
-  } 
-  
-  .woodmereArtMuseum {
-    margin-bottom: 5rem;
-  }
 
-  .space {
-    margin-top: 4rem;
-  }
-  
-  .case {
-    margin: 0rem 4rem 5rem 4rem;
-  }
-  
-    .case h2 {
-      margin: 3rem 0 0 0;
-      font-size: 2rem;
-    }
-  
-    .case h3 {
-      margin: 6rem 0rem 2rem 0rem;
-      font-size: 4em;
-    }
-  
-    .case p {
-      font-size: 1rem;
-      margin: 2rem 0 2rem 0;
-    }
-  
-    .case img {
-      width: 100%;
-    }
-  
   .ident {
     margin: 0 0 0 4rem;
   }
@@ -126,6 +75,6 @@
 
   @media (min-width: 768px) { 
     .Hello {
-      padding: 0 300px;
+      padding: 0 500px;
     }
   }

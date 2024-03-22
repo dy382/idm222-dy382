@@ -1,26 +1,51 @@
-
   /*About me Page*/
-@media (max-width: 768px) {
-  .About {
-    margin: 50px;
-  }
-  
-  .About img {
-    width: 100%;
-  }
-  
-}
-
-@media (min-width: 768px) {
-  .About {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 2em 2em;
-    justify-content: center;
+  .aboutme {
+    padding: 4rem 15rem 0 15rem;
   }
 
-  .About img {
-    height: 30rem;
-    padding: 0 50px;
+  @media (max-width: 800px) {
+    .aboutme {
+      padding: 50px 5rem 7rem 5rem;
+    }
+    .About img {
+      width: 100%;
+      margin: 5rem 0;
+    }
   }
+
+  @media (min-width: 800px) and (max-width: 1300px) {
+    .aboutme {
+      padding: 4rem 10rem 0 10rem;
+    }
+
+    .About img {
+      width: 100%;
+      margin: 5rem 0;
+    }
+
 }
+  
+  @media (min-width: 1300px) {
+    .About {
+      display: flex;
+      position: relative;
+      align-items: center; 
+      justify-content: center; 
+      flex-wrap: wrap; 
+      padding: 30px; 
+      margin-bottom: 10rem;
+    }
+    
+    .About img {
+      height: 30rem;
+      padding: 0 30px;
+      order:1;
+      
+    }
+  
+  .text {
+    flex: 1;
+    order: 2; 
+    padding: 20px; 
+  }
+  }
