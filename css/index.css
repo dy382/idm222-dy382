@@ -18,7 +18,7 @@
   }
   
   .Doyeon {
-    padding: 13rem 0 10rem 20rem;
+    padding: 13rem 0 10rem 0rem;
     text-align: center;
     display: grid;
     align-items: center;
@@ -27,8 +27,8 @@
   
     .Doyeon h4 {
       margin-top: 10rem;
-      grid-column: 1;
-      grid-row: 3;
+      /* grid-column: 1;
+      grid-row: 3; */
     }
   
     .Doyeon h1 {
@@ -36,14 +36,14 @@
       margin-top: 3rem;
       padding: 0 10px;
       border-bottom: 2px solid #36454F;
-      grid-column: 1;
-      grid-row: 4;
+      /* grid-column: 1;
+      grid-row: 4; */
     }
     
-    .Doyeon img { 
+    /* .Doyeon img { 
       grid-column: 3 / span 4;
       grid-row: 1 / span 15;
-    }
+    } */
 
 
   .Hello {
@@ -51,9 +51,17 @@
     text-align: center;
     display: flex;
     align-items: center;
+    justify-content: center;
+    /* background-image: url("../idm222-images/CoffeeMaker.png");
+    background-repeat: no-repeat;
+    background-position-x: left; */
 
   }
   
+  .Hello img {
+    position-x
+  }
+
   .Hello h2 {
     font-size: 18px;
   }  
@@ -63,7 +71,11 @@
   }
 
 
-  @media (max-width: 768px) { 
+  @media (max-width: 900px) { 
+    .Doyeon {
+      padding: 13rem 0 10rem 10rem;
+    }
+
     .Doyeon h4 {
       margin-top: 0rem;
   }
@@ -73,7 +85,7 @@
     }
   }
 
-  @media (min-width: 768px) { 
+  @media (min-width: 900px) { 
     .Hello {
       padding: 0 500px;
     }

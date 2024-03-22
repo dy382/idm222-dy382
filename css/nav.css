@@ -117,7 +117,7 @@ footer {
 
   @keyframes footer {
     from { text-decoration-color: transparent; }
-    to { text-decoration-color: auto; }
+    to { text-decoration-color: inherit; }
   }
 
   .footer a:hover {
@@ -125,8 +125,6 @@ footer {
     text-decoration-color: #ff2b27;
     text-decoration-thickness: 2px;
     animation: footer 250ms ease-in-out;
-    animation-direction: forward;
-    /* animation-fill-mode: forwards;  */
     }
 
 
@@ -215,7 +213,7 @@ footer {
 
   @keyframes menu-items {
     from { text-decoration-color: transparent; }
-    to { text-decoration-color: auto; }
+    to { text-decoration-color: inherit; }
   }
 
   .menu-items a:hover {
@@ -223,8 +221,6 @@ footer {
     text-decoration-color: #ff2b27;
     text-decoration-thickness: 2px;
     animation: menu-items 250ms ease-in-out;
-    animation-direction: forward;
-    /* animation-fill-mode: forwards;  */
     }
 }
   
