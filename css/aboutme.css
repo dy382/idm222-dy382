@@ -14,7 +14,7 @@
 @media (min-width: 768px) {
   .About {
     display: grid;
-    grid-template-columns: 50 auto auto;
+    grid-template-columns: auto auto auto;
     gap: 2em 2em;
     justify-content: center;
   }
